@@ -8,13 +8,18 @@ namespace proximity\detectenv;
  */
 class DetectEnv
 {
-    public $defaultEnv = 'prod';
-    public function __construct($params)
-    {
+    public static $defaultEnv = 'prod';
+
+    /**
+     * Return env depending on server name
+     * @param $params
+     * @return string
+     */
+    public static function get($params){
         $serverName = $_SERVER['SERVER_NAME'];
         if(isset($params[$serverName])){
             return $params[$serverName];
         }
-        return $this->defaultEnv;
+        return self::$defaultEnv;
     }
 }
