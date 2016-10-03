@@ -10,5 +10,10 @@
             "name": "n.vanderburg",
             "email": "nvanderburg@proximity.es"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "proximity\\detectenv\\": ""
+        }
+    }
 }
