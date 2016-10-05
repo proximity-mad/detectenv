@@ -1,5 +1,5 @@
 # detectenv
-Simple PHP Class to get environment depende on server name
+Simple PHP Class to get environment depending on server name
 
 Installation
 ------------
