@@ -34,3 +34,8 @@ $hosts = [
 ];
 $env = \proximity\detectenv\DetectEnv::get($hosts);
 ```
+
+By default is not host is found it will return false, you can change the default host by adding the second parameter:
+```php
+$env = \proximity\detectenv\DetectEnv::get($hosts, 'prod');
+```
