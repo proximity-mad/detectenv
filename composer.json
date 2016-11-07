@@ -1,19 +1,22 @@
 {
-    "name": "proximity/detectenv",
-    "description": "A simple PHP class to detect environment depending on server name",
-    "type": "library",
-    "require": {
-        "php": ">=5.4.0"
-    },
-    "authors": [
-        {
-            "name": "n.vanderburg",
-            "email": "nvanderburg@proximity.es"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "proximity\\detectenv\\": ""
-        }
+  "name": "proximity/detectenv",
+  "description": "A simple PHP class to detect environment depending on server name",
+  "type": "library",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.6.*"
+  },
+  "authors": [
+    {
+      "name": "n.vanderburg",
+      "email": "nvanderburg@proximity.es"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "proximity\\detectenv\\": ""
+    }
+  }
 }
