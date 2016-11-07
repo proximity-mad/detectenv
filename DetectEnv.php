@@ -14,9 +14,9 @@ class DetectEnv
      * @param bool|string $default
      * @return string
      */
-    public static function get($params, $default = false){
-        $serverName = $_SERVER['SERVER_NAME'];
-        if(isset($params[$serverName])){
+    public static function get($params, $default = null){
+        $serverName = isset($_SERVER['SERVER_NAME'])?$_SERVER['SERVER_NAME']:false;
+        if($serverName && isset($params[$serverName])){
             return $params[$serverName];
         }
         return $default;
