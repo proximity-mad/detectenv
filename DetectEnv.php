@@ -1,10 +1,10 @@
 <?php
 
-namespace proximity\detectenv;
+namespace proximitymad\detectenv;
 
 /**
  * Class DetectEnv
- * @package proximity\detectEnv
+ * @package proximitymad\detectEnv
  */
 class DetectEnv
 {

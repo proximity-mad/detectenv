@@ -1,6 +1,6 @@
 <?php
 
-namespace proximity\detectenv;
+namespace proximitymad\detectenv;
 
 
 use PHPUnit\Framework\TestCase;

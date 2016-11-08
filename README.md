@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist proximity/detectenv "1.0.*"
+php composer.phar require --prefer-dist proximitymad/detectenv "1.0.*"
 ```
 
 or add
 
 ```
-"proximity/detectenv": "1.0.*"
+"proximitymad/detectenv": "1.0.*"
 ```
 
 to the require section of your `composer.json` file.
@@ -32,10 +32,10 @@ $hosts = [
     'mytesthost.com'=>'test',
     'myprodhost.com'=>'prod',
 ];
-$env = \proximity\detectenv\DetectEnv::get($hosts);
+$env = \proximitymad\detectenv\DetectEnv::get($hosts);
 ```
 
 By default if no host is found it will return null, you can change the default host by adding the second parameter:
 ```php
-$env = \proximity\detectenv\DetectEnv::get($hosts, 'prod');
+$env = \proximitymad\detectenv\DetectEnv::get($hosts, 'prod');
 ```

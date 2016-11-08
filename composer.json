@@ -1,5 +1,5 @@
 {
-  "name": "proximity/detectenv",
+  "name": "proximitymad/detectenv",
   "description": "A simple PHP class to detect environment depending on server name",
   "type": "library",
   "require": {
@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "proximity\\detectenv\\": ""
+      "proximitymad\\detectenv\\": ""
     }
   }
 }
