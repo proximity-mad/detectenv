@@ -1,9 +1,8 @@
 <?php
 
-namespace proximitymad\detectenv;
-
 
 use PHPUnit\Framework\TestCase;
+use proximitymad\detectenv\DetectEnv;
 
 class DetectEnvTest extends TestCase
 {
