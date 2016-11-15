@@ -31,6 +31,7 @@ $hosts = [
     'mydevhost.dev'=>'dev',
     'mytesthost.com'=>'test',
     'myprodhost.com'=>'prod',
+    'myHostName'=>'console',
 ];
 $env = \proximitymad\detectenv\DetectEnv::get($hosts);
 ```
